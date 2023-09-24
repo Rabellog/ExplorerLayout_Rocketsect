@@ -1,0 +1,107 @@
+body{
+    margin: 0%;
+    background-color: #2F2E41;
+    font-family: 'JetBrains Mono', monospace;
+    min-height: 100vh;
+}
+
+.page {
+    padding-top: 71px;
+    margin: 0 auto; 
+    width: 1280px;
+    height: 720px;
+}
+
+header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 1081px;
+    height: 30px;
+    margin-bottom: 101px;
+}
+
+header ul{
+   list-style: none;
+   display: flex;
+   gap: 64px;  
+   margin: 0;
+   padding: 0;
+}
+
+header ul li{
+    cursor: pointer;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+header ul li:hover{
+    color: #8b8787;
+    text-align: center;
+}
+
+main{
+    width: 1092px;
+    height: 283px;
+    display: flex;
+    gap: 82px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 157px;
+}
+
+main p{
+    width: 604px;
+    color: #C2C2C2;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 0;
+    height: 168px;
+}
+
+main span{
+    font-weight: 700;
+}
+
+main strong{
+    color: #00BFA6;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height:40px;
+    color: #FFF;
+    width: 614px;
+    margin-bottom: 59px;
+    margin-top: 0;
+}
+
+main h1 span{
+    color: #00BFA6;
+}
+
+footer .linha{
+    width: 568px;
+    border: 1px solid #00BFA6;
+    margin: auto;
+}
+
+footer p{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 27px;
+}
+
+#cadeado{
+    position: fixed;
+    bottom:20px;
+    left: 20px;
+}
